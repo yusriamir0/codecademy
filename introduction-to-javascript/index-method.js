@@ -1,22 +1,11 @@
-const animals = [
-    "hippo",
-    "tiger",
-    "lion",
-    "seal",
-    "cheetah",
-    "monkey",
-    "salamander",
-    "elephant",
-];
+const weekdays = 5;
+const weekend = 2;
 
-const foundAnimal = animals.findIndex((animals) => {
-    return animals === "elephant";
-});
+let weekdaysHour = 2.5;
+let weekendHour = 6.5;
 
-console.log(foundAnimal);
+function totalWork() {
+    return weekdays * weekdaysHour + weekend * weekendHour;
+}
 
-const startsWithS = animals.findIndex((animals) => {
-    return animals.startsWith("s");
-});
-
-console.log(startsWithS);
+console.log(totalWork());
