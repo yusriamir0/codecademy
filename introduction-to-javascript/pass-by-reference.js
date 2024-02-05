@@ -4,6 +4,11 @@ let spaceship = {
 };
 
 // Write your code below
+// Hint
+// let functionName = objectParam => {
+//     objectParam['Property Name'] = 'New Property Value';
+//   };
+
 let greenEnergy = (obj) => (obj["Fuel Type"] = "avocado oil");
 
 let remotelyDisable = (obj) => (obj["disabled"] = true);
