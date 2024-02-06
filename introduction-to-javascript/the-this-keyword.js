@@ -10,8 +10,8 @@ const goat = {
         console.log(this.dietType); //The this keyword references the calling object
     },
 };
-
 goat.diet();
+
 // ADVANCED OBJECTS (this keyword) ======================================
 const robot = {
     model: "1E78V2",
