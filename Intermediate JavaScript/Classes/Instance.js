@@ -9,7 +9,7 @@ const halley = new Dog("Halley"); // Create new Dog instance
 console.log(halley.name); // Log the name value saved to halley
 console.log(halley.behavior); // Log the behavior value saved to halley
 
-// Exercise
+// Exercise ----------------------------------------------------------------------
 class Surgeon {
     constructor(name, department) {
         this.name = name;
