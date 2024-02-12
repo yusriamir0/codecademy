@@ -1,3 +1,5 @@
+// Inheritance is when we create a parent class with properties and methods that we can extend to child classes.
+
 // When multiple classes share properties or methods, they become candidates for INHERITANCE
 
 // Define HospitalEmployee class with basic properties and methods

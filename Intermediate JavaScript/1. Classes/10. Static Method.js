@@ -22,6 +22,7 @@ class HospitalEmployee {
         this._name = name;
         this._remainingVacationDays = 20;
     }
+    // Static methods are called on the class, but not on instances of the class.
     static generatePassword() {
         const randomNumber = Math.floor(Math.random() * 10000); // The following code will compute a random integer between 0 and 10,000:
         return randomNumber;
