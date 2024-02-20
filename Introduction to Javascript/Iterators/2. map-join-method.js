@@ -1,3 +1,4 @@
+// map & join example
 const animals = [
     "Hen",
     "elephant",
@@ -10,18 +11,15 @@ const animals = [
     "lion",
     "dog",
 ];
-
 // Create the secretMessage array below
 const secretMessage = animals.map((animals) => {
-    return animals[0];
+    return animals[2];
 });
-
 console.log(secretMessage.join(""));
 
+// map Example
 const bigNumbers = [100, 200, 300, 400, 500];
-
 // Create the smallNumbers array below
-
 const smallNumbers = bigNumbers.map((bigNumbers) => {
     return bigNumbers / 100;
 });
