@@ -13,7 +13,7 @@ const animals = [
 ];
 // Create the secretMessage array below
 const secretMessage = animals.map((animals) => {
-    return animals[2];
+    return animals[0];
 });
 console.log(secretMessage.join(""));
 

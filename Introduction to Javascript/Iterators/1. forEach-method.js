@@ -1,4 +1,4 @@
-// The .forEach() Method
+// The forEach() Method
 const groceries = ["brown sugar", "salt", "cranberries", "walnuts"];
 
 groceries.forEach(function (groceryItem) {
@@ -21,5 +21,3 @@ const fruits = ["mango", "papaya", "pineapple", "apple"];
 fruits.forEach(function (fruitsItem) {
     console.log("I want to eat a " + fruitsItem);
 });
-
-
